@@ -1,281 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hope's Cry | Living Waters Community Church</title>
 
-<title>Hope's Cry | Ending Human Trafficking</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-
-<!-- GLOBAL NAVIGATION HEADER -->
+    <!-- GLOBAL NAVIGATION HEADER -->
     <header class="global-header">
         <div class="brand-identity">
             <span class="brand-title">Living Waters</span>
             <span class="brand-sub">Community Church</span>
         </div>
+
         <nav class="nav-container">
             <ul class="nav-links">
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="../about/index.html">About</a></li>
                 <li><a href="index.html" class="active">Ministries</a></li>
                 <li><a href="../media/index.html">Media</a></li>
-                 <li><a href="../calendar/index.html">Calendar</a></li>
+                <li><a href="../calendar/index.html">Calendar</a></li>
                 <li><a href="../rightnow/index.html">RightNow</a></li>
+                <li><a href="../donate/index.html" class="btn-nav-give">Give</a></li>
                 <li><a href="../guestbook.html" class="nav-btn btn-nav-guest">Guest</a></li>
-                <li><a href="../donate/index.html" class="nav-btn btn-nav-give">Give</a></li>
-                <li><a href="../login.html" class="nav-btn btn-nav-sign-in" style="background: #38bdf8; color: #0f172a; padding: 10px 15px; border-radius: 6px; text-decoration: none; font-weight: 700;">Sign In</a></li>
+                <li><a href="../login.html" class="nav-btn btn-nav-sign-in" style="background:#38bdf8;color:#0f172a;padding:10px 15px;border-radius:6px;text-decoration:none;font-weight:700;">Sign In</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- GLOBAL ANNOUNCEMENT TICKER -->
     <div id="global-ticker"></div>
-  
-  
-  <style>
 
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:'Poppins',sans-serif;
-}
+    <main class="ministries-container">
 
-body{
-background:#fafafa;
-color:#333;
-line-height:1.6;
-}
+        <div class="ministries-header">
+            <h2>Hope's Cry</h2>
+            <p>
+                Living Waters Community Church proudly partners with Hope's Cry,
+                a Christ-centered ministry dedicated to ending human trafficking
+                through prevention, restoration, and sharing the hope of Jesus
+                Christ with vulnerable children, families, and survivors.
+            </p>
+        </div>
 
-header{
-background:url("hero.jpg") center/cover no-repeat;
-height:90vh;
-display:flex;
-align-items:center;
-justify-content:center;
-position:relative;
-}
+        <div class="ministries-grid">
 
-header::before{
-content:"";
-position:absolute;
-inset:0;
-background:rgba(0,0,0,.55);
-}
+            <div class="ministry-card">
+                <div class="ministry-card-content">
+                    <span class="ministry-icon">🏠</span>
+                    <h3>Restore</h3>
+                    <p>
+                        Hope's Cry provides safe housing, trauma-informed care,
+                        counseling, discipleship, education, and vocational
+                        opportunities that help survivors rebuild their lives
+                        with dignity and hope.
+                    </p>
+                </div>
+            </div>
 
-.hero{
-position:relative;
-z-index:2;
-text-align:center;
-color:white;
-padding:20px;
-max-width:900px;
-}
+            <div class="ministry-card">
+                <div class="ministry-card-content">
+                    <span class="ministry-icon">🎓</span>
+                    <h3>Prevent</h3>
+                    <p>
+                        Through education, community outreach, and partnerships
+                        with local leaders, Hope's Cry works to prevent human
+                        trafficking before it begins and protect vulnerable
+                        children from exploitation.
+                    </p>
+                </div>
+            </div>
 
-.hero h1{
-font-size:3.5rem;
-margin-bottom:20px;
-}
+            <div class="ministry-card">
+                <div class="ministry-card-content">
+                    <span class="ministry-icon">🤝</span>
+                    <h3>Empower</h3>
+                    <p>
+                        By equipping churches, families, and community leaders,
+                        Hope's Cry helps create environments where trafficking
+                        cannot thrive and where lasting freedom is possible
+                        through Christ.
+                    </p>
+                </div>
+            </div>
 
-.hero p{
-font-size:1.25rem;
-margin-bottom:30px;
-}
+        </div>
 
-.btn{
-display:inline-block;
-padding:15px 35px;
-background:#ff5d3d;
-color:white;
-text-decoration:none;
-border-radius:40px;
-font-weight:600;
-transition:.3s;
-}
+        <div class="ministries-header" style="margin-top:60px;">
+            <h2>Our Partnership</h2>
+            <p>
+                Living Waters supports Hope's Cry because we believe every person
+                is created in the image of God and deserves to live in freedom.
+                Through prayer, financial support, and raising awareness, we join
+                Hope's Cry in bringing restoration and the Gospel to those
+                affected by human trafficking.
+            </p>
+        </div>
 
-.btn:hover{
-background:#e34728;
-}
+        <div class="ministries-grid">
 
-section{
-padding:80px 10%;
-}
+            <div class="ministry-card">
+                <div class="ministry-card-content">
+                    <span class="ministry-icon">🌍</span>
+                    <h3>Get Involved</h3>
+                    <p>
+                        Learn more about Hope's Cry, follow their ministry,
+                        pray for their team, and discover ways you can help
+                        bring freedom and hope to survivors around the world.
+                    </p>
+                </div>
 
-.title{
-text-align:center;
-margin-bottom:50px;
-}
+                <a href="https://hopescry.com/" target="_blank" class="btn-ministry-contact">
+                    Visit Hope's Cry
+                </a>
 
-.title h2{
-font-size:2.5rem;
-color:#222;
-}
+                <br>
 
-.cards{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-gap:30px;
-}
+                <a href="https://hopescry.com/donate/" target="_blank" class="btn-ministry-contact">
+                    Support the Ministry
+                </a>
+            </div>
 
-.card{
-background:white;
-padding:35px;
-border-radius:15px;
-box-shadow:0 10px 30px rgba(0,0,0,.08);
-transition:.3s;
-}
+        </div>
 
-.card:hover{
-transform:translateY(-8px);
-}
+    </main>
 
-.card h3{
-margin-bottom:15px;
-color:#ff5d3d;
-}
+    <!-- GLOBAL FOOTER -->
+    <div id="global-footer"></div>
 
-.stats{
-background:#222;
-color:white;
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
-gap:30px;
-text-align:center;
-}
+    <!-- GLOBAL TICKER -->
+    <script src="../assets/js/ticker.js"></script>
 
-.stat h2{
-font-size:3rem;
-color:#ff5d3d;
-}
-
-.cta{
-background:#ff5d3d;
-text-align:center;
-color:white;
-}
-
-footer{
-padding:30px;
-text-align:center;
-background:#111;
-color:#bbb;
-}
-
-</style>
-</head>
-
-<body>
-
-<header>
-
-<div class="hero">
-
-<h1>Hope Ends Human Trafficking</h1>
-
-<p>
-Together we empower communities, restore survivors,
-and prevent trafficking through the love of Jesus Christ.
-</p>
-
-<a href="#" class="btn">Join the Mission</a>
-
-</div>
-
-</header>
-
-<section>
-
-<div class="title">
-<h2>Our Ministry</h2>
-</div>
-
-<div class="cards">
-
-<div class="card">
-<h3>Restore</h3>
-<p>
-Providing safe housing, trauma-informed care, education,
-vocational training, and hope for survivors of trafficking.
-</p>
-</div>
-
-<div class="card">
-<h3>Prevent</h3>
-<p>
-Working alongside schools and local leaders to educate
-communities and reduce the vulnerability of children.
-</p>
-</div>
-
-<div class="card">
-<h3>Empower</h3>
-<p>
-Equipping local churches and community leaders to create
-environments where trafficking cannot thrive.
-</p>
-</div>
-
-</div>
-
-</section>
-
-<section class="stats">
-
-<div class="stat">
-<h2>70%</h2>
-<p>of Uganda's trafficking victims come from Karamoja.</p>
-</div>
-
-<div class="stat">
-<h2>1</h2>
-<p>Local aftercare center serving trafficking survivors in the region.</p>
-</div>
-
-<div class="stat">
-<h2>100%</h2>
-<p>Committed to restoring dignity, identity, and hope.</p>
-</div>
-
-</section>
-
-<section>
-
-<div class="title">
-<h2>Our Mission</h2>
-</div>
-
-<p style="max-width:900px;margin:auto;text-align:center;font-size:1.1rem;">
-We exist to empower communities to create environments
-where human trafficking cannot exist. Through restoration,
-prevention, education, and the hope found in Jesus Christ,
-we work alongside local leaders to bring lasting freedom
-to vulnerable children and families.
-</p>
-
-</section>
-
-<section class="cta">
-
-<h2 style="margin-bottom:20px;">Join the Fight Against Human Trafficking</h2>
-
-<p style="margin-bottom:35px;">
-Every prayer, volunteer, and donation helps restore lives.
-</p>
-
-<a href="#" class="btn" style="background:white;color:#ff5d3d;">
-Support the Ministry
-</a>
-
-</section>
-
-<footer>
-
-<p>
-© 2026 Hope's Cry Ministry • Freedom • Restoration • Hope
-</p>
-
-</footer>
+    <!-- GLOBAL FOOTER -->
+    <script src="../assets/js/footer.js"></script>
 
 </body>
 </html>
